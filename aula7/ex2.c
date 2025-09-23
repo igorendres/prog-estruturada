@@ -9,8 +9,9 @@
 
 float medial(int *counter, float *media){
     *counter = 0;
+    *media = 0;
     float soma = 0.0;
-    int x = 0;
+    float x = 0;
     do {
         printf("Digite um numero: \n");
         scanf("%f", &x);
@@ -19,8 +20,7 @@ float medial(int *counter, float *media){
         (*counter)++;
         }
     } while (x > 0);
-
-    return *media = soma / *media; 
+    return *media = soma / *counter;
 }
 
 int main () {
