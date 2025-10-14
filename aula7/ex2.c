@@ -27,8 +27,8 @@ int main () {
     float media;
     int count;
 
-    medial(&count, &media);
-    printf("%f | %i", media, count);
+        medial(&count, &media);
+        printf("%f | %i", media, count);
     return 0;
 
 }
